@@ -1,0 +1,119 @@
+<section id="main" style="  min-height: 50vh;">
+    <div class="container" >
+        <form [formGroup]="formsearch" (ngSubmit)="onSubmit()">
+          <br/><br/>
+    <div class="row">
+      
+      <h5>Contact</h5><br/>
+      <div class="col">
+        <label for="id">
+          Id
+        </label>
+        <input class="form-control" id="id" type="text" formControlName="id">
+      </div>
+    
+      <div class="col">
+        <label for="firstName">
+          firstName
+        </label>
+        <input class="form-control" id="firstName" type="text" formControlName="firstName">
+      </div>
+    
+
+      <div  class="col">
+          <label for="lastName">
+              lastName
+          </label>
+          <input class="form-control" id="lastName" type="text" formControlName="lastName">
+        </div>
+    
+        
+
+        <div  class="col">
+          <label for="email">
+              email
+          </label>
+          <input class="form-control" id="email" type="text" formControlName="email">
+        </div>
+    </div>
+    <br/>
+        <div class="row">
+          <h5>Address</h5><br/>
+          
+              
+              <div  class="col">
+                <label for="zip">
+                  zip
+                </label>
+                <input class="form-control" id="zip" type="text" formControlName="zip">
+              </div>
+          
+              
+
+              <div  class="col">
+                <label for="city">
+                    city
+                </label>
+                <input class="form-control" id="city" type="text" formControlName="city">
+              </div>
+          
+              
+
+              <div  class="col">
+                <label for="street">
+                    street
+                </label>
+                <input class="form-control" id="street" type="text" formControlName="street">
+              </div>
+          
+              
+
+              <div  class="col">
+                <label for="country">
+                    country
+                </label>
+                <input class="form-control" id="country" type="text" formControlName="country">
+              </div>
+              <br/>
+        </div>
+        <br/>
+             
+              <div class="row">
+                <h5>Telephone</h5><br/>
+                <div class="col">
+                  <label for="phoneKind">
+                      phoneKind
+                  </label>
+                  <input class="form-control" id="phoneKind" type="text" formControlName="phoneKind">
+                </div>
+  
+                <div class="col">
+                  <label for="phoneNumber">
+                      phoneNumber
+                  </label>
+                  <input class="form-control" id="phoneNumber" type="text" formControlName="phoneNumber">
+                </div>
+              
+              </div>
+              <br/>
+              <div class="row">
+                <div class="col-3">
+                  <label for="groupName">
+                      groupName
+                  </label>
+                  <input class="form-control" id="groupName" type="text" formControlName="groupName">
+                </div>
+              </div>
+              <br/>
+           
+         
+           
+       <div class="d-flex flex-row-reverse">    <button class="button" class="btn btn-primary" type="submit">Edit</button></div>
+          
+          </form>   
+      
+    
+        </div>
+        <br/>
+    </section>
+    

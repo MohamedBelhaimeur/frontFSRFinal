@@ -1,0 +1,17 @@
+com\lip6\entities\Messages.class
+com\lip6\servlets\DeleteContactServlet.class
+com\lip6\entities\Contact.class
+com\lip6\services\IServiceContact.class
+com\lip6\daos\IDAOContact.class
+com\lip6\entities\PhoneNumber.class
+com\lip6\entities\ContactGroup.class
+com\lip6\servlets\LoginServlet.class
+com\lip6\servlets\EmployeeController.class
+com\lip6\configuration\AppConfiguration.class
+com\lip6\daos\DAOContact.class
+com\lip6\servlets\SearchByIdServelt.class
+com\lip6\utils\JpaUtil.class
+com\lip6\servlets\AddContactServlet.class
+com\lip6\services\ServiceContact.class
+com\lip6\entities\Address.class
+com\lip6\servlets\UpdateContactServlet.class

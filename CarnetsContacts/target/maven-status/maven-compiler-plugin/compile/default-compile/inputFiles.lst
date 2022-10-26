@@ -1,0 +1,17 @@
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\servlets\ContactController.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\services\ServiceContact.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\utils\JpaUtil.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\daos\IDAOContact.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\servlets\DeleteContactServlet.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\configuration\AppConfiguration.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\daos\DAOContact.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\servlets\LoginServlet.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\entities\Address.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\entities\ContactGroup.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\services\IServiceContact.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\entities\Messages.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\servlets\UpdateContactServlet.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\entities\PhoneNumber.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\entities\Contact.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\servlets\SearchByIdServelt.java
+C:\Users\jojo75\eclipse-workspace2022last\CarnetsContacts\src\main\java\com\lip6\servlets\AddContactServlet.java

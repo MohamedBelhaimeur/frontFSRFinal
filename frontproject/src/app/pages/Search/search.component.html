@@ -1,0 +1,36 @@
+<section id="main" style="  min-height: 50vh;">
+<div class="container">
+  <br/><br/>
+    <form [formGroup]="formsearch" (ngSubmit)="onSubmit()">
+
+        <div>
+          <label for="id">
+            Id
+          </label>
+          <input  class="form-control"id="id" type="text" formControlName="id">
+        </div>
+        <br/>
+     
+       
+        <div class="d-flex flex-row-reverse">    <button class="button"  class="btn btn-primary"type="submit">Search</button>
+      </div>
+      </form>   
+      <br/>
+
+    <div *ngIf="successrequest">
+  
+      
+      <div class="card" style="width: 18rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title">{{contact?.firstName}} {{contact?.lastName}}</h5>
+          <div class="row">  <div *ngFor="let number of contact?.phones">{{number?.phoneNumber}} - {{number?.phoneKind}}</div></div>
+          <div class="row">   <div *ngFor="let group of contact?.contactGroups">{{group?.groupName}}</div></div>
+          <i>email: {{contact?.email}}</i>
+          <div class="row">   <div >{{contact?.address?.city}}/ {{contact?.address?.zip}}</div></div>
+        </div>
+      </div>
+   </div>
+    </div>
+    <br/>
+</section>

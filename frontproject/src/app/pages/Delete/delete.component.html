@@ -1,0 +1,23 @@
+<section id="main" style="  min-height: 50vh;">
+  
+    <div class="container">
+      <br/>   <br/>
+        <form [formGroup]="formsearch" (ngSubmit)="onSubmit()">
+    
+            <div>
+              <label for="id">
+                Id
+              </label>
+              <input id="id" class="form-control" type="text" formControlName="id">
+            </div>
+          <br/>
+         
+          <div class="d-flex flex-row-reverse">   
+            <button class="btn btn-primary" type="submit">Delete</button>
+          </div>
+          </form>   
+        </div>
+        <br/>
+        
+    </section>
+    
